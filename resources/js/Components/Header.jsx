@@ -1,6 +1,26 @@
 import { Link } from '@inertiajs/react'
 import React, { useState } from 'react'
 export default function Header({ auth }) {
+    const handleThemeMode = function() {
+
+		jQuery('.dz-theme-mode').on('click',function(){
+			jQuery(this).toggleClass('active');
+
+			if(jQuery(this).hasClass('active')){
+				jQuery('body').attr('data-theme-version','dark');
+			}else{
+				jQuery('body').attr('data-theme-version','light');
+			}
+		});
+	}
+    const handleChatbox = function() {
+		jQuery('.bell-link').on('click',function(){
+			jQuery('.chatbox').addClass('active');
+		});
+		jQuery('.chatbox-close').on('click',function(){
+			jQuery('.chatbox').removeClass('active');
+		});
+	}
   return (
 <div className="header">
   <div className="header-content">
@@ -27,7 +47,7 @@ export default function Header({ auth }) {
           </div>
           <ul className="navbar-nav">
             <li className="nav-item dropdown notification_dropdown">
-              <a className="nav-link bell dz-theme-mode" href="javascript:void(0);">
+              <a className="nav-link bell dz-theme-mode" href="javascript:void(0);" onClick={handleThemeMode}>
                 <svg id="icon-light" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" className="svg-main-icon">
                   <g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
                     <rect x={0} y={0} width={24} height={24} />
@@ -191,7 +211,7 @@ export default function Header({ auth }) {
               </div>
             </li>
             <li className="nav-item dropdown notification_dropdown">
-              <a className="nav-link bell-link" href="javascript:void(0);">
+              <a className="nav-link bell-link" href="javascript:void(0);" onClick={handleChatbox}>
                 <svg width={25} height={24} viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clipPath="url(#clip0_1_463)">
                     <path opacity="0.3" fillRule="evenodd" clipRule="evenodd" d="M6.5 2H18.5C19.0523 2 19.5 2.44772 19.5 3V13C19.5 13.5523 19.0523 14 18.5 14H6.5C5.94772 14 5.5 13.5523 5.5 13V3C5.5 2.44772 5.94772 2 6.5 2ZM14.3 4C13.6562 4 12.9033 4.72985 12.5 5.2C12.0967 4.72985 11.3438 4 10.7 4C9.5604 4 8.9 4.88887 8.9 6.02016C8.9 7.27339 10.1 8.6 12.5 10C14.9 8.6 16.1 7.3 16.1 6.1C16.1 4.96871 15.4396 4 14.3 4Z" fill="#222B40" />

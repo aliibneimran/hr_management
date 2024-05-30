@@ -30,7 +30,7 @@
             <div class="container-fluid p-0">
                 <div class="row g-0">
                     <!-- end col -->
-                    <div class="col-xxl-5 col-lg-5 col-md-5">
+                    <div class="col-xxl-5 col-lg-5 col-md-5 d-none d-md-block">
                         {{-- <div id="carouselExampleCaptions" class="carousel slide">
                             <div class="carousel-indicators">
                               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

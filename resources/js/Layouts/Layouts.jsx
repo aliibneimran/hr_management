@@ -11,9 +11,9 @@ export default function Layouts({children}) {
     // }, []);
   return (
 <div id="main-wrapper">
-    {/* <TopLeft></TopLeft> */}
+    <TopLeft></TopLeft>
     <Chatbox></Chatbox>
-    {/* <Header></Header> */}
+    <Header></Header>
     <Leftbar></Leftbar>
     <div className="content-body">
         <div className="container-fluid">
