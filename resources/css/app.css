@@ -1,0 +1,14 @@
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+#sidebar-menu ul li img{
+    /* box-shadow: 0px 0px 7px 1px; */
+    border-radius: 50%;
+    /* background-color: rgba(29, 18, 238, 0.973); */
+}
+#sidebar-menu ul li a:hover{
+    /* background-color: white; */
+}
+
+/* for login page */
