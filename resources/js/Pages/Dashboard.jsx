@@ -1,4 +1,3 @@
-import Horizontal from "@/Components/Horizontal";
 import Layouts from "@/Layouts/Layouts";
 
 export default function Dashboard({ auth }) {
