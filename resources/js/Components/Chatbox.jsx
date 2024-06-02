@@ -10,14 +10,67 @@ export default function Chatbox() {
         {/* <a className="nav-link" data-bs-toggle="tab" href="#notes">Notes</a> */}
       </li>
       <li className="nav-item">
-        <a className="nav-link" data-bs-toggle="tab" href="#alerts">Switch Me</a>
+        <a className="nav-link active" data-bs-toggle="tab" href="#alerts">Switch Me</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link active" data-bs-toggle="tab" href="#chat">Popular Pages</a>
+        <a className="nav-link" data-bs-toggle="tab" href="#chat">Popular Pages</a>
       </li>
     </ul>
     <div className="tab-content">
-      <div className="tab-pane fade active show" id="chat">
+      <div className="tab-pane fade active show" id="alerts">
+        <div className="card mb-sm-3 mb-md-0 contacts_card">
+          <div className="card-body contacts_body p-0 dz-scroll" id="DZ_W_Contacts_Body1">
+            <div className="contacts">
+              <div className="active p-4">
+                <div className="d-flex bd-highlight">
+                  <div className="img_cont primary">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-repeat"><polyline points="17 1 21 5 17 9"></polyline><path d="M3 11V9a4 4 0 0 1 4-4h14"></path><polyline points="7 23 3 19 7 15"></polyline><path d="M21 13v2a4 4 0 0 1-4 4H3"></path></svg>
+                  </div>
+                  <div className="user_info">
+                    <span>Product Switch</span>
+                    <p className="text-primary">Switch Between Products</p>
+                  </div>
+                </div>
+              </div>
+              <li>
+                <div className="d-flex bd-highlight">
+                  <div className="img_cont success">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-key"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path></svg>
+                  </div>
+                  <div className="user_info">
+                    <span>Hr Administration</span>
+                    <p>All HR Administration functionalities are available in this section based on your security privileges.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="d-flex bd-highlight">
+                  <div className="img_cont success">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-key"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path></svg>
+                  </div>
+                  <div className="user_info">
+                    <span>Hr Self Service</span>
+                    <p>All Self Service related functionalities are available in this section based on your security privileges.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="d-flex bd-highlight">
+                  <div className="img_cont success">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-key"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path></svg>
+                  </div>
+                  <div className="user_info">
+                    <span>Marketplace</span>
+                    <p>Explore products and services that enhance your HR Lounge experience.</p>
+                  </div>
+                </div>
+              </li>
+            </div>
+          </div>
+          <div className="card-footer" />
+        </div>
+      </div>
+      <div className="tab-pane fade" id="chat">
         <div className="card mb-sm-3 mb-md-0 contacts_card dz-chat-user-box">
           <div className="card-header chat-list-header text-center">
             <a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd"><rect fill="#000000" x={4} y={11} width={16} height={2} rx={1} /><rect fill="#000000" opacity={1.0} transform="translate(12.000000, 12.000000) rotate(-270.000000) translate(-12.000000, -12.000000) " x={4} y={11} width={16} height={2} rx={1} /></g></svg></a>
@@ -372,59 +425,6 @@ export default function Chatbox() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div className="tab-pane fade" id="alerts">
-        <div className="card mb-sm-3 mb-md-0 contacts_card">
-          <div className="card-body contacts_body p-0 dz-scroll" id="DZ_W_Contacts_Body1">
-            <div className="contacts">
-              <div className="active p-4">
-                <div className="d-flex bd-highlight">
-                  <div className="img_cont primary">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-repeat"><polyline points="17 1 21 5 17 9"></polyline><path d="M3 11V9a4 4 0 0 1 4-4h14"></path><polyline points="7 23 3 19 7 15"></polyline><path d="M21 13v2a4 4 0 0 1-4 4H3"></path></svg>
-                  </div>
-                  <div className="user_info">
-                    <span>Product Switch</span>
-                    <p className="text-primary">Switch Between Products</p>
-                  </div>
-                </div>
-              </div>
-              <li>
-                <div className="d-flex bd-highlight">
-                  <div className="img_cont success">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-key"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path></svg>
-                  </div>
-                  <div className="user_info">
-                    <span>Hr Administration</span>
-                    <p>All HR Administration functionalities are available in this section based on your security privileges.</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div className="d-flex bd-highlight">
-                  <div className="img_cont success">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-key"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path></svg>
-                  </div>
-                  <div className="user_info">
-                    <span>Hr Self Service</span>
-                    <p>All Self Service related functionalities are available in this section based on your security privileges.</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div className="d-flex bd-highlight">
-                  <div className="img_cont success">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-key"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path></svg>
-                  </div>
-                  <div className="user_info">
-                    <span>Marketplace</span>
-                    <p>Explore products and services that enhance your HR Lounge experience.</p>
-                  </div>
-                </div>
-              </li>
-            </div>
-          </div>
-          <div className="card-footer" />
         </div>
       </div>
       <div className="tab-pane fade" id="notes">
