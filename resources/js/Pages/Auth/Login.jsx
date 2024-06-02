@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useForm } from "@inertiajs/react";
 
-export default function Login({ status, canResetPassword }) {
+export default function Login() {
     const { data, setData, post, processing, errors, reset } = useForm({
         email: "",
         password: "",
@@ -32,7 +32,7 @@ export default function Login({ status, canResetPassword }) {
             <div className="container-fluid p-0">
                 <div className="row g-0">
                     {/* end col */}
-                    <div className="col-xxl-5 col-lg-5 col-md-5 d-none d-md-block">
+                    <div className="col-xxl-6 col-lg-5 col-md-5 d-none d-md-block">
                       {/* <img src="assets/images/login/hr (6).jpg" alt="" width={'100%'} height={'100%'}/> */}
                         <div
                             id="carouselExampleCaptions"
@@ -66,7 +66,7 @@ export default function Login({ status, canResetPassword }) {
                                         src="assets/images/login/hr (6).jpg"
                                         className="d-block"
                                         alt="image"
-                              
+
                                         height={600}
                                         width={'100%'}
                                     />
@@ -139,9 +139,9 @@ export default function Login({ status, canResetPassword }) {
                             </button>
                         </div>
 
-                        
+
                     </div>
-                    <div className="col-xxl-7 col-lg-7 col-md-7">
+                    <div className="col-xxl-6 col-lg-7 col-md-7">
                         <div className="auth-full-page-content d-flex p-sm-5 p-4">
                             <div className="w-75 m-auto">
                                 <div className="d-flex flex-column h-100">
@@ -210,7 +210,7 @@ export default function Login({ status, canResetPassword }) {
                                                     >
                                                         <i className={`mdi ${showPassword ? 'mdi-eye-off-outline' : 'mdi-eye-outline'}`} />
                                                     </button>
-                                                    
+
                                                 </div>
                                             </div>
                                             <div className="row mb-4 mt-4">
@@ -282,7 +282,7 @@ export default function Login({ status, canResetPassword }) {
                                                     href={route('password.request')}
                                                     className="text-primary fw-semibold m-2"
                                                 >
-                                                    
+
                                                     Reset now
                                                 </Link>
                                             </p>

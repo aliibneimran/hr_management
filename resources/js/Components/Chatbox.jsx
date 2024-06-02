@@ -2,18 +2,18 @@ import React from 'react'
 
 export default function Chatbox() {
   return (
-<div className="chatbox">
+<div className="chatbox" id='topmodal'>
   <div className="chatbox-close" />
   <div className="custom-tab-1">
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        <a className="nav-link" data-bs-toggle="tab" href="#notes">Notes</a>
+        {/* <a className="nav-link" data-bs-toggle="tab" href="#notes">Notes</a> */}
       </li>
       <li className="nav-item">
-        <a className="nav-link" data-bs-toggle="tab" href="#alerts">Alerts</a>
+        <a className="nav-link" data-bs-toggle="tab" href="#alerts">Switch Me</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link active" data-bs-toggle="tab" href="#chat">Chat</a>
+        <a className="nav-link active" data-bs-toggle="tab" href="#chat">Popular Pages</a>
       </li>
     </ul>
     <div className="tab-content">
@@ -376,56 +376,53 @@ export default function Chatbox() {
       </div>
       <div className="tab-pane fade" id="alerts">
         <div className="card mb-sm-3 mb-md-0 contacts_card">
-          <div className="card-header chat-list-header text-center">
-            <a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd"><rect x={0} y={0} width={24} height={24} /><circle fill="#000000" cx={5} cy={12} r={2} /><circle fill="#000000" cx={12} cy={12} r={2} /><circle fill="#000000" cx={19} cy={12} r={2} /></g></svg></a>
-            <div>
-              <h6 className="mb-1">Notications</h6>
-              <p className="mb-0">Show All</p>
-            </div>
-            <a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd"><rect x={0} y={0} width={24} height={24} /><path d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z" fill="#000000" fillRule="nonzero" opacity={1} /><path d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z" fill="#000000" fillRule="nonzero" /></g></svg></a>
-          </div>
           <div className="card-body contacts_body p-0 dz-scroll" id="DZ_W_Contacts_Body1">
-            <ul className="contacts">
-              <li className="name-first-letter">SEVER STATUS</li>
-              <li className="active">
+            <div className="contacts">
+              <div className="active p-4">
                 <div className="d-flex bd-highlight">
-                  <div className="img_cont primary">KK</div>
+                  <div className="img_cont primary">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-repeat"><polyline points="17 1 21 5 17 9"></polyline><path d="M3 11V9a4 4 0 0 1 4-4h14"></path><polyline points="7 23 3 19 7 15"></polyline><path d="M21 13v2a4 4 0 0 1-4 4H3"></path></svg>
+                  </div>
                   <div className="user_info">
-                    <span>David Nester Birthday</span>
-                    <p className="text-primary">Today</p>
+                    <span>Product Switch</span>
+                    <p className="text-primary">Switch Between Products</p>
                   </div>
                 </div>
-              </li>
-              <li className="name-first-letter">SOCIAL</li>
+              </div>
               <li>
                 <div className="d-flex bd-highlight">
-                  <div className="img_cont success">RU</div>
-                  <div className="user_info">
-                    <span>Perfection Simplified</span>
-                    <p>Jame Smith commented on your status</p>
+                  <div className="img_cont success">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-key"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path></svg>
                   </div>
-                </div>
-              </li>
-              <li className="name-first-letter">SEVER STATUS</li>
-              <li>
-                <div className="d-flex bd-highlight">
-                  <div className="img_cont primary">AU</div>
                   <div className="user_info">
-                    <span>AharlieKane</span>
-                    <p>Sami is online</p>
+                    <span>Hr Administration</span>
+                    <p>All HR Administration functionalities are available in this section based on your security privileges.</p>
                   </div>
                 </div>
               </li>
               <li>
                 <div className="d-flex bd-highlight">
-                  <div className="img_cont info">MO</div>
+                  <div className="img_cont success">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-key"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path></svg>
+                  </div>
                   <div className="user_info">
-                    <span>Athan Jacoby</span>
-                    <p>Nargis left 30 mins ago</p>
+                    <span>Hr Self Service</span>
+                    <p>All Self Service related functionalities are available in this section based on your security privileges.</p>
                   </div>
                 </div>
               </li>
-            </ul>
+              <li>
+                <div className="d-flex bd-highlight">
+                  <div className="img_cont success">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-key"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path></svg>
+                  </div>
+                  <div className="user_info">
+                    <span>Marketplace</span>
+                    <p>Explore products and services that enhance your HR Lounge experience.</p>
+                  </div>
+                </div>
+              </li>
+            </div>
           </div>
           <div className="card-footer" />
         </div>
