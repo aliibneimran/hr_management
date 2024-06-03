@@ -86,7 +86,7 @@ export default function Chatbox() {
               <li className="active dz-chat-user">
                 <div className="d-flex bd-highlight">
                   <div className="img_cont">
-                    <img src="images/avatar/1.jpg" className="rounded-circle user_img" alt />
+                    <img src="assets/images/avatar/1.jpg" className="rounded-circle user_img" alt />
                     <span className="online_icon" />
                   </div>
                   <div className="user_info">
@@ -98,7 +98,7 @@ export default function Chatbox() {
               <li className="dz-chat-user">
                 <div className="d-flex bd-highlight">
                   <div className="img_cont">
-                    <img src="images/avatar/2.jpg" className="rounded-circle user_img" alt />
+                    <img src="assets/images/avatar/2.jpg" className="rounded-circle user_img" alt />
                     <span className="online_icon offline" />
                   </div>
                   <div className="user_info">
@@ -110,7 +110,7 @@ export default function Chatbox() {
               <li className="dz-chat-user">
                 <div className="d-flex bd-highlight">
                   <div className="img_cont">
-                    <img src="images/avatar/3.jpg" className="rounded-circle user_img" alt />
+                    <img src="assets/images/avatar/3.jpg" className="rounded-circle user_img" alt />
                     <span className="online_icon" />
                   </div>
                   <div className="user_info">
@@ -122,7 +122,7 @@ export default function Chatbox() {
               <li className="dz-chat-user">
                 <div className="d-flex bd-highlight">
                   <div className="img_cont">
-                    <img src="images/avatar/4.jpg" className="rounded-circle user_img" alt />
+                    <img src="assets/images/avatar/4.jpg" className="rounded-circle user_img" alt />
                     <span className="online_icon offline" />
                   </div>
                   <div className="user_info">
@@ -135,7 +135,7 @@ export default function Chatbox() {
               <li className="dz-chat-user">
                 <div className="d-flex bd-highlight">
                   <div className="img_cont">
-                    <img src="images/avatar/5.jpg" className="rounded-circle user_img" alt />
+                    <img src="assets/images/avatar/5.jpg" className="rounded-circle user_img" alt />
                     <span className="online_icon offline" />
                   </div>
                   <div className="user_info">
@@ -147,7 +147,7 @@ export default function Chatbox() {
               <li className="dz- -user">
                 <div className="d-flex bd-highlight">
                   <div className="img_cont">
-                    <img src="images/avatar/1.jpg" className="rounded-circle user_img" alt />
+                    <img src="assets/images/avatar/1.jpg" className="rounded-circle user_img" alt />
                     <span className="online_icon" />
                   </div>
                   <div className="user_info">
@@ -159,7 +159,7 @@ export default function Chatbox() {
               <li className="dz-chat-user">
                 <div className="d-flex bd-highlight">
                   <div className="img_cont">
-                    <img src="images/avatar/2.jpg" className="rounded-circle user_img" alt />
+                    <img src="assets/images/avatar/2.jpg" className="rounded-circle user_img" alt />
                     <span className="online_icon offline" />
                   </div>
                   <div className="user_info">
@@ -172,7 +172,7 @@ export default function Chatbox() {
               <li className="dz-chat-user">
                 <div className="d-flex bd-highlight">
                   <div className="img_cont">
-                    <img src="images/avatar/3.jpg" className="rounded-circle user_img" alt />
+                    <img src="assets/images/avatar/3.jpg" className="rounded-circle user_img" alt />
                     <span className="online_icon" />
                   </div>
                   <div className="user_info">
@@ -184,7 +184,7 @@ export default function Chatbox() {
               <li className="dz-chat-user">
                 <div className="d-flex bd-highlight">
                   <div className="img_cont">
-                    <img src="images/avatar/4.jpg" className="rounded-circle user_img" alt />
+                    <img src="assets/images/avatar/4.jpg" className="rounded-circle user_img" alt />
                     <span className="online_icon offline" />
                   </div>
                   <div className="user_info">
@@ -197,7 +197,7 @@ export default function Chatbox() {
               <li className="dz-chat-user">
                 <div className="d-flex bd-highlight">
                   <div className="img_cont">
-                    <img src="images/avatar/5.jpg" className="rounded-circle user_img" alt />
+                    <img src="assets/images/avatar/5.jpg" className="rounded-circle user_img" alt />
                     <span className="online_icon offline" />
                   </div>
                   <div className="user_info">
@@ -209,7 +209,7 @@ export default function Chatbox() {
               <li className="dz-chat-user">
                 <div className="d-flex bd-highlight">
                   <div className="img_cont">
-                    <img src="images/avatar/1.jpg" className="rounded-circle user_img" alt />
+                    <img src="assets/images/avatar/1.jpg" className="rounded-circle user_img" alt />
                     <span className="online_icon" />
                   </div>
                   <div className="user_info">
@@ -221,7 +221,7 @@ export default function Chatbox() {
               <li className="dz-chat-user">
                 <div className="d-flex bd-highlight">
                   <div className="img_cont">
-                    <img src="images/avatar/2.jpg" className="rounded-circle user_img" alt />
+                    <img src="assets/images/avatar/2.jpg" className="rounded-circle user_img" alt />
                     <span className="online_icon offline" />
                   </div>
                   <div className="user_info">
@@ -233,7 +233,7 @@ export default function Chatbox() {
               <li className="dz-chat-user">
                 <div className="d-flex bd-highlight">
                   <div className="img_cont">
-                    <img src="images/avatar/3.jpg" className="rounded-circle user_img" alt />
+                    <img src="assets/images/avatar/3.jpg" className="rounded-circle user_img" alt />
                     <span className="online_icon" />
                   </div>
                   <div className="user_info">
@@ -246,7 +246,7 @@ export default function Chatbox() {
               <li className="dz-chat-user">
                 <div className="d-flex bd-highlight">
                   <div className="img_cont">
-                    <img src="images/avatar/4.jpg" className="rounded-circle user_img" alt />
+                    <img src="assets/images/avatar/4.jpg" className="rounded-circle user_img" alt />
                     <span className="online_icon offline" />
                   </div>
                   <div className="user_info">
@@ -258,7 +258,7 @@ export default function Chatbox() {
               <li className="dz-chat-user">
                 <div className="d-flex bd-highlight">
                   <div className="img_cont">
-                    <img src="images/avatar/5.jpg" className="rounded-circle user_img" alt />
+                    <img src="assets/images/avatar/5.jpg" className="rounded-circle user_img" alt />
                     <span className="online_icon offline" />
                   </div>
                   <div className="user_info">
@@ -292,7 +292,7 @@ export default function Chatbox() {
           <div className="card-body msg_card_body dz-scroll" id="DZ_W_Contacts_Body3">
             <div className="d-flex justify-content-start mb-4">
               <div className="img_cont_msg">
-                <img src="images/avatar/1.jpg" className="rounded-circle user_img_msg" alt />
+                <img src="assets/images/avatar/1.jpg" className="rounded-circle user_img_msg" alt />
               </div>
               <div className="msg_cotainer">
                 Hi, how are you samim?
@@ -305,12 +305,12 @@ export default function Chatbox() {
                 <span className="msg_time_send">8:55 AM, Today</span>
               </div>
               <div className="img_cont_msg">
-                <img src="images/avatar/2.jpg" className="rounded-circle user_img_msg" alt />
+                <img src="assets/images/avatar/2.jpg" className="rounded-circle user_img_msg" alt />
               </div>
             </div>
             <div className="d-flex justify-content-start mb-4">
               <div className="img_cont_msg">
-                <img src="images/avatar/1.jpg" className="rounded-circle user_img_msg" alt />
+                <img src="assets/images/avatar/1.jpg" className="rounded-circle user_img_msg" alt />
               </div>
               <div className="msg_cotainer">
                 I am good too, thank you for your chat template
@@ -323,12 +323,12 @@ export default function Chatbox() {
                 <span className="msg_time_send">9:05 AM, Today</span>
               </div>
               <div className="img_cont_msg">
-                <img src="images/avatar/2.jpg" className="rounded-circle user_img_msg" alt />
+                <img src="assets/images/avatar/2.jpg" className="rounded-circle user_img_msg" alt />
               </div>
             </div>
             <div className="d-flex justify-content-start mb-4">
               <div className="img_cont_msg">
-                <img src="images/avatar/1.jpg" className="rounded-circle user_img_msg" alt />
+                <img src="assets/images/avatar/1.jpg" className="rounded-circle user_img_msg" alt />
               </div>
               <div className="msg_cotainer">
                 I am looking for your next templates
@@ -341,12 +341,12 @@ export default function Chatbox() {
                 <span className="msg_time_send">9:10 AM, Today</span>
               </div>
               <div className="img_cont_msg">
-                <img src="images/avatar/2.jpg" className="rounded-circle user_img_msg" alt />
+                <img src="assets/images/avatar/2.jpg" className="rounded-circle user_img_msg" alt />
               </div>
             </div>
             <div className="d-flex justify-content-start mb-4">
               <div className="img_cont_msg">
-                <img src="images/avatar/1.jpg" className="rounded-circle user_img_msg" alt />
+                <img src="assets/images/avatar/1.jpg" className="rounded-circle user_img_msg" alt />
               </div>
               <div className="msg_cotainer">
                 Bye, see you
@@ -355,7 +355,7 @@ export default function Chatbox() {
             </div>
             <div className="d-flex justify-content-start mb-4">
               <div className="img_cont_msg">
-                <img src="images/avatar/1.jpg" className="rounded-circle user_img_msg" alt />
+                <img src="assets/images/avatar/1.jpg" className="rounded-circle user_img_msg" alt />
               </div>
               <div className="msg_cotainer">
                 Hi, how are you samim?
@@ -368,12 +368,12 @@ export default function Chatbox() {
                 <span className="msg_time_send">8:55 AM, Today</span>
               </div>
               <div className="img_cont_msg">
-                <img src="images/avatar/2.jpg" className="rounded-circle user_img_msg" alt />
+                <img src="assets/images/avatar/2.jpg" className="rounded-circle user_img_msg" alt />
               </div>
             </div>
             <div className="d-flex justify-content-start mb-4">
               <div className="img_cont_msg">
-                <img src="images/avatar/1.jpg" className="rounded-circle user_img_msg" alt />
+                <img src="assets/images/avatar/1.jpg" className="rounded-circle user_img_msg" alt />
               </div>
               <div className="msg_cotainer">
                 I am good too, thank you for your chat template
@@ -386,12 +386,12 @@ export default function Chatbox() {
                 <span className="msg_time_send">9:05 AM, Today</span>
               </div>
               <div className="img_cont_msg">
-                <img src="images/avatar/2.jpg" className="rounded-circle user_img_msg" alt />
+                <img src="assets/images/avatar/2.jpg" className="rounded-circle user_img_msg" alt />
               </div>
             </div>
             <div className="d-flex justify-content-start mb-4">
               <div className="img_cont_msg">
-                <img src="images/avatar/1.jpg" className="rounded-circle user_img_msg" alt />
+                <img src="assets/images/avatar/1.jpg" className="rounded-circle user_img_msg" alt />
               </div>
               <div className="msg_cotainer">
                 I am looking for your next templates
@@ -404,12 +404,12 @@ export default function Chatbox() {
                 <span className="msg_time_send">9:10 AM, Today</span>
               </div>
               <div className="img_cont_msg">
-                <img src="images/avatar/2.jpg" className="rounded-circle user_img_msg" alt />
+                <img src="assets/images/avatar/2.jpg" className="rounded-circle user_img_msg" alt />
               </div>
             </div>
             <div className="d-flex justify-content-start mb-4">
               <div className="img_cont_msg">
-                <img src="images/avatar/1.jpg" className="rounded-circle user_img_msg" alt />
+                <img src="assets/images/avatar/1.jpg" className="rounded-circle user_img_msg" alt />
               </div>
               <div className="msg_cotainer">
                 Bye, see you
