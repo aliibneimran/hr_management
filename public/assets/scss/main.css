@@ -11719,7 +11719,7 @@ svg.pulse-svg {
 
 [direction="rtl"] {
   text-align: right; }
-  [direction="rtl"] .deznav {
+  [direction="rtl"] . {
     text-align: right; }
     [direction="rtl"] .deznav .metismenu ul:after {
       left: auto;

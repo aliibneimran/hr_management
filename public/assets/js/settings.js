@@ -38,46 +38,46 @@ function dzSettings({typography, version, layout, navheaderBg, headerBg, sidebar
 
 dzSettings.prototype.manageVersion = function() {
     switch(this.version) {
-        case "light": 
+        case "light":
             body.attr("data-theme-version", "light");
             break;
-        case "dark": 
+        case "dark":
             body.attr("data-theme-version", "dark");
             break;
-        case "transparent": 
+        case "transparent":
             body.attr("data-theme-version", "transparent");
             break;
-        default: 
+        default:
             body.attr("data-theme-version", "light");
     }
 }
 
 dzSettings.prototype.manageTypography = function() {
     switch(this.version) {
-        case "poppins": 
+        case "poppins":
             body.attr("data-typography", "poppins");
             break;
-        case "roboto": 
+        case "roboto":
             body.attr("data-typography", "roboto");
             break;
-        case "opensans": 
+        case "opensans":
             body.attr("data-typography", "opensans");
             break;
-        case "helvetica": 
+        case "helvetica":
             body.attr("data-typography", "helvetica");
             break;
-        default: 
+        default:
             body.attr("data-typography", "roboto");
     }
 }
 
 dzSettings.prototype.manageLayout = function() {
     switch(this.layout) {
-        case "horizontal": 
+        case "horizontal":
             this.sidebarStyle === "overlay" ? body.attr("data-sidebar-style", "full") : body.attr("data-sidebar-style", `${this.sidebarStyle}`);
             body.attr("data-layout", "horizontal");
             break;
-        case "vertical": 
+        case "vertical":
             body.attr("data-layout", "vertical");
             break;
         default:
@@ -87,43 +87,43 @@ dzSettings.prototype.manageLayout = function() {
 
 dzSettings.prototype.manageNavHeaderBg = function() {
     switch(this.navheaderBg) {
-        case "color_1": 
+        case "color_1":
             body.attr("data-nav-headerbg", "color_1");
             break;
-        case "color_2": 
+        case "color_2":
             body.attr("data-nav-headerbg", "color_2");
             break;
-        case "color_3": 
+        case "color_3":
             body.attr("data-nav-headerbg", "color_3");
             break;
-        case "color_4": 
+        case "color_4":
             body.attr("data-nav-headerbg", "color_4");
             break;
-        case "color_5": 
+        case "color_5":
             body.attr("data-nav-headerbg", "color_5");
             break;
-        case "color_6": 
+        case "color_6":
             body.attr("data-nav-headerbg", "color_6");
             break;
-        case "color_7": 
+        case "color_7":
             body.attr("data-nav-headerbg", "color_7");
             break;
-        case "color_8": 
+        case "color_8":
             body.attr("data-nav-headerbg", "color_8");
             break;
-        case "color_9": 
+        case "color_9":
             body.attr("data-nav-headerbg", "color_9");
             break;
-        case "color_10": 
+        case "color_10":
             body.attr("data-nav-headerbg", "color_10");
             break;
-        case "image_1": 
+        case "image_1":
             body.attr("data-nav-headerbg", "image_1");
             break;
-        case "image_2": 
+        case "image_2":
             body.attr("data-nav-headerbg", "image_2");
             break;
-        case "image_3": 
+        case "image_3":
             body.attr("data-nav-headerbg", "image_3");
             break;
         default:
@@ -133,46 +133,46 @@ dzSettings.prototype.manageNavHeaderBg = function() {
 
 dzSettings.prototype.manageHeaderBg = function() {
     switch(this.headerBg) {
-        case "color_1": 
+        case "color_1":
             body.attr("data-headerbg", "color_1");
             break;
-        case "color_2": 
+        case "color_2":
             body.attr("data-headerbg", "color_2");
             break;
-        case "color_3": 
+        case "color_3":
             body.attr("data-headerbg", "color_3");
             break;
-        case "color_4": 
+        case "color_4":
             body.attr("data-headerbg", "color_4");
             break;
-        case "color_5": 
+        case "color_5":
             body.attr("data-headerbg", "color_5");
             break;
-        case "color_6": 
+        case "color_6":
             body.attr("data-headerbg", "color_6");
             break;
-        case "color_7": 
+        case "color_7":
             body.attr("data-headerbg", "color_7");
             break;
-        case "color_8": 
+        case "color_8":
             body.attr("data-headerbg", "color_8");
             break;
-        case "color_9": 
+        case "color_9":
             body.attr("data-headerbg", "color_9");
             break;
-        case "color_10": 
+        case "color_10":
             body.attr("data-headerbg", "color_10");
             break;
-        case "transparent": 
+        case "transparent":
             body.attr("data-headerbg", "transparent");
             break;
-        case "gradient_1": 
+        case "gradient_1":
             body.attr("data-headerbg", "gradient_1");
             break;
-        case "gradient_2": 
+        case "gradient_2":
             body.attr("data-headerbg", "gradient_2");
             break;
-        case "gradient_3": 
+        case "gradient_3":
             body.attr("data-headerbg", "gradient_3");
             break;
         default:
@@ -199,12 +199,12 @@ dzSettings.prototype.manageSidebarStyle = function() {
             break;
         case "icon-hover":
             body.attr("data-sidebar-style", "icon-hover");
-    
+
             $('.deznav').hover(function() {
                 $('#main-wrapper').addClass('iconhover-toggle');
             }, function() {
                 $('#main-wrapper').removeClass('iconhover-toggle');
-            });            
+            });
             break;
         case "overlay":
             this.layout === "horizontal" ? body.attr("data-sidebar-style", "full") : body.attr("data-sidebar-style", "overlay");
@@ -216,43 +216,43 @@ dzSettings.prototype.manageSidebarStyle = function() {
 
 dzSettings.prototype.manageSidebarBg = function() {
     switch(this.sidebarBg) {
-        case "color_1": 
+        case "color_1":
             body.attr("data-sibebarbg", "color_1");
             break;
-        case "color_2": 
+        case "color_2":
             body.attr("data-sibebarbg", "color_2");
             break;
-        case "color_3": 
+        case "color_3":
             body.attr("data-sibebarbg", "color_3");
             break;
-        case "color_4": 
+        case "color_4":
             body.attr("data-sibebarbg", "color_4");
             break;
-        case "color_5": 
+        case "color_5":
             body.attr("data-sibebarbg", "color_5");
             break;
-        case "color_6": 
+        case "color_6":
             body.attr("data-sibebarbg", "color_6");
             break;
-        case "color_7": 
+        case "color_7":
             body.attr("data-sibebarbg", "color_7");
             break;
-        case "color_8": 
+        case "color_8":
             body.attr("data-sibebarbg", "color_8");
             break;
-        case "color_9": 
+        case "color_9":
             body.attr("data-sibebarbg", "color_9");
             break;
-        case "color_10": 
+        case "color_10":
             body.attr("data-sibebarbg", "color_10");
             break;
-        case "image_1": 
+        case "image_1":
             body.attr("data-sibebarbg", "image_1");
             break;
-        case "image_2": 
+        case "image_2":
             body.attr("data-sibebarbg", "image_2");
             break;
-        case "image_3": 
+        case "image_3":
             body.attr("data-sibebarbg", "image_3");
             break;
         default:
@@ -262,27 +262,27 @@ dzSettings.prototype.manageSidebarBg = function() {
 
 dzSettings.prototype.manageSidebarPosition = function() {
     switch(this.sidebarPosition) {
-        case "fixed": 
+        case "fixed":
             this.sidebarStyle === "overlay" && this.layout === "vertical" || this.sidebarStyle === "modern" ? body.attr("data-sidebar-position", "static") : body.attr("data-sidebar-position", "fixed");
             break;
-        case "static": 
+        case "static":
             body.attr("data-sidebar-position", "static");
             break;
-        default: 
-            body.attr("data-sidebar-position", "static");       
+        default:
+            body.attr("data-sidebar-position", "static");
     }
 }
 
 dzSettings.prototype.manageHeaderPosition = function() {
     switch(this.headerPosition) {
-        case "fixed": 
+        case "fixed":
             body.attr("data-header-position", "fixed");
             break;
-        case "static": 
+        case "static":
             body.attr("data-header-position", "static");
             break;
-        default: 
-            body.attr("data-header-position", "static");       
+        default:
+            body.attr("data-header-position", "static");
     }
 }
 
@@ -297,7 +297,7 @@ dzSettings.prototype.manageContainerLayout = function() {
         case "wide":
             body.attr("data-container", "wide");
             break;
-        case "wide-boxed": 
+        case "wide-boxed":
             body.attr("data-container", "wide-boxed");
             break;
         default:
@@ -312,12 +312,12 @@ dzSettings.prototype.manageRtlLayout = function() {
             html.addClass('rtl');
             body.attr("direction", "rtl");
             break;
-        case "ltr": 
+        case "ltr":
             html.attr("dir", "ltr");
             html.removeClass('rtl');
             body.attr("direction", "ltr");
             break;
-        default: 
+        default:
             html.attr("dir", "ltr");
             body.attr("direction", "ltr");
     }
@@ -342,37 +342,37 @@ dzSettings.prototype.manageResponsiveSidebar = function() {
 
 dzSettings.prototype.managePrimaryColor = function() {
 	switch(this.primary) {
-        case "color_1": 
+        case "color_1":
             body.attr("data-primary", "color_1");
 			 break;
-        case "color_2": 
+        case "color_2":
             body.attr("data-primary", "color_2");
             break;
-		case "color_3": 
+		case "color_3":
             body.attr("data-primary", "color_3");
             break;
-		case "color_4": 
+		case "color_4":
             body.attr("data-primary", "color_4");
             break;
-		case "color_5": 
+		case "color_5":
             body.attr("data-primary", "color_5");
             break;
-		case "color_6": 
+		case "color_6":
             body.attr("data-primary", "color_6");
-            break;	
-		case "color_7": 
+            break;
+		case "color_7":
             body.attr("data-primary", "color_7");
             break;
-		case "color_8": 
+		case "color_8":
             body.attr("data-primary", "color_8");
             break;
-		case "color_9": 
+		case "color_9":
             body.attr("data-primary", "color_9");
             break;
-		case "color_10": 
+		case "color_10":
             body.attr("data-primary", "color_10");
             break;
-			
+
         default:
             body.attr("data-primary", "color_1");
     }

@@ -5,3 +5,7 @@
 #topmodal{
     margin-top: 60px;
 }
+.deznav .metismenu > li > a i{
+    padding-right: 10px;
+}
+

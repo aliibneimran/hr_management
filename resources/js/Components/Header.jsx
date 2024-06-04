@@ -76,7 +76,7 @@ export default function Header({ auth }) {
                     <li>
                       <div className="timeline-panel">
                         <div className="media me-2">
-                          <img alt="image" width={50} src="assets/images/avatar/1.jpg" />
+                          <img alt="image" width={50} src="images/avatar/1.jpg" />
                         </div>
                         <div className="media-body">
                           <h6 className="mb-1">Dr sultads Send you Photo</h6>
@@ -109,7 +109,7 @@ export default function Header({ auth }) {
                     <li>
                       <div className="timeline-panel">
                         <div className="media me-2">
-                          <img alt="image" width={50} src="assets/images/avatar/1.jpg" />
+                          <img alt="image" width={50} src="images/avatar/1.jpg" />
                         </div>
                         <div className="media-body">
                           <h6 className="mb-1">Dr sultads Send you Photo</h6>
@@ -142,7 +142,7 @@ export default function Header({ auth }) {
                     <li>
                       <div className="timeline-panel">
                         <div className="media me-2">
-                          <img alt="image" width={50} src="assets/images/avatar/1.jpg" />
+                          <img alt="image" width={50} src="images/avatar/1.jpg" />
                         </div>
                         <div className="media-body">
                           <h6 className="mb-1">Dr sultads Send you Photo</h6>
@@ -175,7 +175,7 @@ export default function Header({ auth }) {
                     <li>
                       <div className="timeline-panel">
                         <div className="media me-2">
-                          <img alt="image" width={50} src="assets/images/avatar/1.jpg" />
+                          <img alt="image" width={50} src="images/avatar/1.jpg" />
                         </div>
                         <div className="media-body">
                           <h6 className="mb-1">Dr sultads Send you Photo</h6>
@@ -243,7 +243,7 @@ export default function Header({ auth }) {
                         </svg>
                         <span className="ms-2">Profile </span>
                       </a>
-                      <Link href={ route('logout') } method='post' as="button" className="dropdown-item ai-icon">
+                      <Link href={ route('logout') } method='post' as='button' className="dropdown-item ai-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width={18} height={18} viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" /><polyline points="16 17 21 12 16 7" /><line x1={21} y1={12} x2={9} y2={12} /></svg>
                         <span className="ms-2">Logout </span>
                       </Link>
