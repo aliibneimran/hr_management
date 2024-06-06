@@ -1,6 +1,6 @@
 import Layouts from "@/Layouts/Layouts";
 
-export default function Dashboard({ auth }) {
+export default function Dashboard() {
     return (
         <Layouts>
             <div className="text-center mt-5">

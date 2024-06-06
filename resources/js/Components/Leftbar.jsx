@@ -6,7 +6,8 @@ export default function Leftbar() {
 <div className="deznav">
   <div className="deznav-scroll">
     <ul className="metismenu" id="menu">
-      {/* <li className="menu-title">YOUR COMPANY</li> */}
+      <li className="menu-title"><Link href={route('about')}>About</Link></li>
+      <li className="menu-title"><Link href={route('contact')}>Contact</Link></li>
 
       <li><a className="has-arrow " href="javascript:void(0);" aria-expanded="false">
           <div className="menu-icon">

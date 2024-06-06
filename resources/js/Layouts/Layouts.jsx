@@ -27,11 +27,11 @@ export default function Layouts({children}) {
     <Leftbar></Leftbar>
     <div className="content-body">
         <div className="container-fluid">
-            <div id="preloader">
+            {/* <div id="preloader">
                 <div>
                     <img src="assets/images/gif.gif" alt />
                 </div>
-            </div>
+            </div> */}
             {children}
         </div>
     </div>
