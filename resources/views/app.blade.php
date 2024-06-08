@@ -30,7 +30,11 @@
     </head>
     <body class="font-sans antialiased">
         @inertia
-
+        {{-- <div id="preloader">
+            <div>
+                <img src="assets/images/preload.gif" alt=''/>
+            </div>
+        </div> --}}
 
     <!-- Required vendors -->
     <script src="{{asset('assets/vendor/global/global.min.js')}}"></script>
@@ -42,7 +46,7 @@
     {{-- <script src="{{ asset('assets/js/styleSwitcher.js') }}"></script> --}}
 
     @if(Auth::check())
-    {{-- <script src="{{ asset('assets/js/styleSwitcher.js') }}"></script> --}}
+    <script src="{{ asset('assets/js/styleSwitcher.js') }}"></script>
     @endif
 
     </body>

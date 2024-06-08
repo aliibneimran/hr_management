@@ -27,6 +27,12 @@ export default function Header({ auth }) {
     <nav className="navbar navbar-expand">
       <div className="collapse navbar-collapse justify-content-between">
         <div className="header-left">
+        <li className="nav-item dropdown notification_dropdown" id='modalMenu'>
+            <a className="nav-link bell-link" href="javascript:void(0);" data-bs-toggle="modal"
+                data-bs-target="#basicModal">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </a>
+        </li>
         </div>
         <div className="header-right d-flex align-items-center">
           <div className="input-group search-area">
@@ -258,6 +264,35 @@ export default function Header({ auth }) {
       </div>
     </nav>
   </div>
+  <div className="modal fade" id="basicModal">
+        <div className="modal-dialog" role="document">
+            <div className="modal-content">
+                <div className="modal-header">
+                            <h5 className="modal-title">Modal title</h5>
+                            <button
+                                type="button"
+                                className="btn-close"
+                                data-bs-dismiss="modal"
+                            ></button>
+                        </div>
+                        <div className="modal-body">
+                            Modal body text goes here.
+                        </div>
+                        <div className="modal-footer">
+                            <button
+                                type="button"
+                                className="btn btn-danger light"
+                                data-bs-dismiss="modal"
+                            >
+                                Close
+                            </button>
+                            <button type="button" className="btn btn-primary">
+                                Save changes
+                            </button>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
   )

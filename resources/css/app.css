@@ -8,4 +8,8 @@
 .deznav .metismenu > li > a i{
     padding-right: 10px;
 }
-
+#modalMenu{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10%;
+}

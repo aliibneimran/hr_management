@@ -1,9 +1,7 @@
-import { useEffect, useState } from "react";
-import { Link, useForm } from "@inertiajs/react";
 import LoginLeft from "@/Components/LoginLeft";
-import LoginRight from "@/Components/LoginRight";
+import ForgetRight from "@/Components/ForgetRight";
 
-export default function Login() {
+export default function ForgetPassword() {
     return (
         <div className="auth-page">
             <div className="container-fluid p-0">
@@ -16,7 +14,7 @@ export default function Login() {
 
                     </div>
                     <div className="col-xxl-6 col-lg-7 col-md-7">
-                        <LoginRight></LoginRight>
+                        <ForgetRight></ForgetRight>
                         {/* end auth full page content */}
                     </div>
                     {/* end col */}
